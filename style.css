@@ -1175,6 +1175,11 @@ footer .icon{
     .container-popular p {
         font-size: 15px;
     }
+    .card-footer h5 , p{
+        
+        padding-right: 21px;
+        
+    }
 /* --------------------choices---------------- */
     .choice{
         padding: 0 0 35px 0;

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../cartAnimationCss"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Watch_Websit-main_websit7"
+	}
+}

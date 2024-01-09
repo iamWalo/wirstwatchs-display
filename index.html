@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="time-outline.svg">
+    <title> Display-Watches    </title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <section class="header">
+      <a class="navbar-logo" href="#"><img src="logo/logo.png" alt=""></a>
+      <div>
+        <ul class="navbar">
+          <li ><a   class="active" href="#home">Home</a></li>
+          <li ><a   href="#about">About</a></li>
+          <li ><a  href="#product">Product</a></li>
+          <li ><a   href="#new" >New</a></li>
+          <i id="close" class="fa fa-times"></i>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fa fa-outdent"></i>
+      </div>
+    </section>
+    
+
+
+
+      <!-- Home -->
+    <div id="home">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div id="home-img" class="carousel-item active hero" dir="rtl">
+            <img src="hero/watch.png" class="d-flex watch" alt="...">
+          </div>
+
+          <div class="text">
+            <h1>Select Your</h1>
+            <h3><span>New</span> Prefect Style</h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore minus nesciunt fugit totam itaque eveniet mollitia, minima doloribus ipsa architecto?</p>
+            <a href="#" class="home-btn btnStyle" >Show More</a>
+            
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <!-- NEW Product -->
+      <section class="product" id="new">
+        
+        
+      
+      
+        <div class="row " id="card-container" >
+          <div class="product-title top-left">
+            <h1  class="newP">New Products</h1>
+          </div>
+          <div class="col top-right">
+              <div class="single-card">
+                  <div class="cardfront " id="gallery1" >
+                    
+                  </div>
+                  
+                  <div class="card-content" >
+                    <div class="carde-texte">
+                      <h5 class="card-title">Haitham Hassan (Front End)</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
+                    </div>
+                    <div class="price">
+                      <h6 > $ 50.500 </h6>
+                  </div>
+                  </div>
+                  
+                  
+              </div>
+            
+              
+            
+          </div>
+          <div class="col  bottom-right">
+              <div class="single-card">
+                  <div class="cardfront " id="gallery2">
+              
+                  </div>
+                  <div class="card-content" >
+                    <div class="carde-texte">
+                      <h5 class="card-title">Haitham Hassan (Front End)</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
+                    </div>
+                    <div class="price">
+                      <h6 > $ 50.500 </h6>
+                  </div>
+                  </div>
+                    
+              </div>
+            
+             
+            
+          </div>
+          <div class="col bottom-left">
+              <div class="single-card">
+                  <div class="cardfront " id="gallery3">
+              
+                  </div>
+                  <div class="card-content" >
+                    <div class="carde-texte">
+                      <h5 class="card-title">Haitham Hassan (Front End)</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
+                    </div>
+                    <div class="price">
+                      <h6 > $ 50.500 </h6>
+                  </div>
+                  </div>
+                 
+              </div>
+            
+              
+            
+          </div>
+        </div>
+        </div>
+      </section>
+      
+
+
+      <!-- Photo -->
+    <section class="photo">
+    
+      <div class="bk_1"></div>
+      <div class="bk_2"></div>
+      <div class="bk_3">
+      <div class="img_top"></div>
+      <div class="img_bottom"></div>
+      </div>
+    
+    </section>
+
+
+     <!-- Popular items -->
+     
+     <section class="container-popular" id="product">
+      <h1>Popular items</h1>
+      
+      <div class="popularImages">
+        <div  class="popularBox">
+          
+           <img src="gallery/popular1.png" class="card-img-top" alt="Skyscrapers"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p >$ 45.567</p>
+              
+            </div>
+          
+        </div>
+        <div  class="popularBox">
+          
+            <img src="gallery/popular2.png" class="card-img-top" alt="Los Angeles Skyscrapers"/>  
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p >$ 45.567</p>
+              <div class="fix">
+                
+              </div>
+            </div>
+          
+        </div>
+        <div  class="popularBox">
+          
+            <img src="gallery/popular3.png" class="card-img-top" alt="Palm Springs Road"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p >$ 45.567</p>
+              
+            </div>
+          
+        </div>
+        <div  class="popularBox">
+          
+           <img src="gallery/popular4.png" class="card-img-top" alt="Skyscrapers"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p >$ 45.567</p>
+              <div class="fix">
+             
+            </div>
+            </div>
+          
+        </div>
+        <div  class="popularBox">
+          
+            <img src="gallery/popular5.png" class="card-img-top" alt="Los Angeles Skyscrapers"/>  
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p >$ 45.567</p>
+              
+            </div>
+          
+        </div>
+        <div  class="popularBox">
+          
+            <img src="gallery/popular6.png" class="card-img-top" alt="Palm Springs Road"/>
+            <div class="card-footer">
+              <h5>Thermo Ball Etip Gloves</h5>
+              <p >$ 45.567</p>
+              
+            </div>
+          
+        </div>
+      </div>
+
+
+      
+    
+    </section>
+     
+
+     <!-- Watch of Choice -->
+  <section class="choice" id="about">
+      <div class="watch-choice" id="watch-choice1">
+<!-- -----------this img only for mobile---------- -->
+        <div class="watch-choice-img1 mobile " >
+          <img
+            src="gallery/choce_watch1.png"
+            alt="Trendy Pants and Shoes"
+            class="img-fluid rounded-start"
+          />  
+        </div>
+        
+          <div  class="choice-content card1 show">
+            <h1 class="card-title">Watch of Choice</h1>
+            <div>
+              <p>
+                This is a wider card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
+              </p>
+            </div>
+            
+            <div class="choice-text">
+              <a href="#" class="but btnStyle">SHOW WATCHES</a>
+            </div>
+             
+            
+          </div>
+          
+        <!-- ------------------this img for pc and ipade--------- -->
+        <div class="watch-choice-img1 " id="pc">
+          <img
+            src="gallery/choce_watch1.png"
+            alt="Trendy Pants and Shoes"
+            class="img-fluid rounded-start"
+          />  
+        </div>
+        
+      
+      </div>
+
+    
+    <div class="watch-choice" id="watch-choice2" >
+      
+        <div class="watch-choice-img2">
+          <img
+            src="gallery/choce_watch2.png"
+            alt="Trendy Pants and Shoes"
+            class="img-fluid rounded-start"
+          />
+        </div>
+        
+        <div  class="choice-content card2 show">
+          <h1 class="card-title">Watch of Choice</h1>
+          <div>
+            <p>
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+            </p>
+          </div>
+          
+          <div class="choice-text">
+            <a href="#" class="but btnStyle">SHOW WATCHES</a>
+          </div>
+           
+          
+        </div>
+        
+      
+        
+      
+    </div>
+  </section>
+
+    <!-- Advantages -->
+    <section class="advantage">
+      <div class="adv-divs " >
+
+        <div class="adv-box">
+          <div class="">
+            
+            <div class="">
+              <div class="">
+                  <i class="fa-solid fa-cube"></i>
+              </div>
+              <h4 >Tutorials</h4>
+              <p >
+                Dozens of free tutorials to help you discover the full potential of MDB.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="adv-box">
+          <div class="">
+            
+            <div class="">
+              <div class="">
+                <i class="fa-solid fa-unlock-keyhole"></i>
+              </div>
+              <h4>Integrations</h4>
+              <p >
+                MDB is integrated with all major technologies and tools.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="adv-box">
+          <div class="">
+            
+            <div class="">
+              <div class="">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </div>
+              <h4 >Backend friendly</h4>
+              <p >
+                MDB is designed to be seamlessly integrated and used.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+   
+    
+      </div>
+    </section>
+
+
+    <!-- footer -->
+     <section class="container-table">
+      <div class="more">
+        <div class="logoCon">
+          <img src="logo/logo2_footer.png" >
+        </div>
+        <div class="moreConetent">
+          <h6>Quick Link</h6>
+          <p>About</p>
+          <p>Offers & Disconts</p>
+          <p>Get Coupon</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="moreConetent">
+          <h6>New Product</h6>
+          <p>Women Cloth</p>
+          <p>Fashion Accesories</p>
+          <p>Man Accesories</p>
+          <p>Raber Made Toys</p>
+        </div>
+        <div class="moreConetent">
+          <h6>Support</h6>
+          <p>Frequntly Asked Qustions</p>
+          <p>Team & Condtions</p>
+          <p>Prives Policy</p>
+          <p>Report a Pyment Lssue</p>
+        </div>
+      </div>
+        
+        
+        <footer >
+          <div class="copyright" >
+            <div>
+            <p>Copyright @ 2024 All rights reserved | This websit is made by Yanis?benseddik</p>
+            </div>
+            <div class="icon">
+              
+              <i class="fa-solid fa-globe"></i>
+            </div>
+          </div>
+        </footer>
+      </section> 
+
+
+      
+      
+
+      <script src="bootstrap.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
